@@ -11,6 +11,7 @@ import Contact from './components/Screens/Contact';
 import Footer from './components/Footer';
 
 function App() {
+
   const tarjeta={
     bajoPeso:[18.5,"Bajo Peso"],
     adecuado:[18.5, 24.9,"Adecuado"],
