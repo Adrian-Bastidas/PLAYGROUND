@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../estilos/Age.scss'
 
 function Age() {
   const [birthDate, setBirthDate] = useState('');
