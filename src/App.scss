@@ -105,7 +105,77 @@ flex-direction: column;
     .selected {
       text-decoration: underline;
     }
-
+    color: #000000;
+  }
+  .selected{
+    text-decoration: underline;
+  }
+}
+.nav-space::after{
+  content: "";
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 95%;
+  border-bottom: 2px solid #ccc;
+}
+.fut-space{
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  font-family: 'Montserrat', sans-serif;
+}
+.container-IMC{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  input[type="range"]{
+    width: 534px;
+  }
+  .tarjeta-IMC{
+    width: 899px;
+    height: 484.86px;
+    left: 221px;
+    margin-top: 3%;
+    
+    background: #D9D9D9;
+    border-radius: 40px;
+    transform: rotate(-0.06deg);
+  }
+  .rango1{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: -0.5%;
+  }
+  .rango2{
+    margin-top: 10%;
+    margin-right: 9%;
+    margin-bottom: -0.5%;
+  }
+  .indicadores{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  .resultado-numero{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+  }
+  .resultado-texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    margin-top: 0%;
+    p:contains("importante") {
+      color: red;
+    }
+  }
+}
     .nav-space::after {
       content: "";
       margin-left: auto;

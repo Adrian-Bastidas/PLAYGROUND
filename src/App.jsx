@@ -11,18 +11,19 @@ import Contact from './components/Screens/Contact';
 import Footer from './components/Footer';
 
 function App() {
-    const tarjeta={
-      bajoPeso:[18.5,"Bajo Peso"],
-      adecuado:[18.5, 24.9,"Adecuado"],
-      sobrepeso:[25.0,29.9,"Sobrepeso"],
-      obesidadG1:[30.0,34.9,"Obesidad grado 1"],
-      obesidadG2:[35.0,39.9,"Obesidad grado 2"],
-      obesidadG3:[40.0,"Obesidad grado 3"],
-      minimokg:40,
-      maximokg:180,
-      minimocm:120,
-      maximocm:230,
-    }
+
+  const tarjeta={
+    bajoPeso:[18.5,"Bajo Peso"],
+    adecuado:[18.5, 24.9,"Adecuado"],
+    sobrepeso:[25.0,29.9,"Sobrepeso"],
+    obesidadG1:[30.0,34.9,"Obesidad grado 1"],
+    obesidadG2:[35.0,39.9,"Obesidad grado 2"],
+    obesidadG3:[40.0,"Obesidad grado 3"],
+    minimokg:40,
+    maximokg:180,
+    minimocm:120,
+    maximocm:230,
+  }
   return (
     <div className="App">
             <Router>
