@@ -269,6 +269,36 @@ flex-direction: column;
   position:relative;
   font-family: 'Montserrat', sans-serif;
 }
+.about{
+  display: flex;
+  .rectangulo-foto{
+    box-sizing: border-box;
+    width:22%;
+    height: 0%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .texto-neto{
+      margin-left: 10%;
+      width: 60%;
+      font-family: 'Montserrat';
+      margin-top: 7%;
+      .nombre{
+        letter-spacing: -0.015em;
+        font-weight: 400;
+        margin-left: 1%;
+      font-size: 48px;
+      text-align: left;
+      }
+      .texto-about{
+        font-weight: 400;
+        font-size: 18px;
+        width:90% ;
+        text-align: left;
+      }
+    }
+}
 .reloj{
   *,
 *::after,
