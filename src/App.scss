@@ -83,3 +83,75 @@
   position: fixed;
   font-family: 'Montserrat', sans-serif;
 }
+.titulo-contact{
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+.formulario{
+  width: 622px;
+  height: 439px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: auto;
+  font-family: 'Montserrat';
+  .contenido-fomulario{
+    margin-left: 10%;
+    text-align: left;
+    
+      .subtitulo-contact {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.015em;
+        font-style: normal;
+        margin-top: 64px;
+      }
+    }
+    .nombres{
+      display: flex;
+      .nombre1{
+        font-weight: 400;
+          font-size: 15px;
+          border: 1px solid rgba(0, 0, 0, 0.5);
+          width: 237px;
+          height: 40px;
+          margin-right:2.5%;
+          font-weight: 400;
+      }
+      .nombre2{
+        font-weight: 400;
+          font-size: 15px;
+          border: 1px solid rgba(0, 0, 0, 0.5);
+          width: 237px;
+          height: 40px;
+          font-weight: 400;
+      }
+    }
+    .normales{
+      margin-top: 24px;
+      width: 494px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      height: 40px;
+      font-weight: 400;
+    }
+    .area{
+      margin-top: 24px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      width: 494px;
+      height: 97px;
+      resize:none;
+      font-weight: 400;
+    }
+    .boton-formulario{
+      margin-top: 16px;
+      background: #18A0FB;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: -0.015em;
+      width: 130px;
+      height: 40px;
+      color: white;
+      border-radius: 6px;
+      border: none;
+    }
+    }
