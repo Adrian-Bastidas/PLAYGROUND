@@ -56,6 +56,7 @@ const Imc = (props) => {
        <p className='resultado-numero'>{calculateImc().toFixed(2)}</p>
        {clasificacion()}
      </div>
+     <br/>
      </div>
    );
 }
