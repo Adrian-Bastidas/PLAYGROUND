@@ -350,16 +350,16 @@ flex-direction: column;
       border: none;
     }
     }
-    .rectangulo-foto{
-      box-sizing: border-box;
-      width:300px;
-      height: 0%;
-      margin-left: 5%;
-      margin-top: 2%;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      }
 .about{
   display: flex;
+  .rectangulo-foto{
+    box-sizing: border-box;
+    width:300px;
+    height: 0%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    }
     .texto-neto{
       margin-left: 10%;
       width: 60%;

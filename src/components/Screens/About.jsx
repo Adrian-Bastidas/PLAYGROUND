@@ -2,9 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (<>
-        <img src="./Images/foto.png" alt="Imagen personal" width="2000" />
+
 
     <div className='about'>
+    <img className="rectangulo-foto" src="./Images/foto.png" alt="Imagen personal" width="2000" />
       <div className='texto-neto'>
       <p className='nombre'>Adrian Rafael Bastidas Moya</p>
       <p className='texto-about'>Hi, I’m a Full-Stack Developer and and information systems student at PUCE. 
