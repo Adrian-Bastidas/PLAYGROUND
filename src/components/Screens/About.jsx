@@ -3,7 +3,9 @@ import React from 'react'
 const About = () => {
   return (
     <div className='about'>
+      <div className='rectangulo-foto'>
       <img src="./Images/foto.png" alt="Imagen personal"/>
+      </div>
       <div className='texto-neto'>
       <p className='nombre'>Adrian Rafael Bastidas Moya</p>
       <p className='texto-about'>Hi, I’m a Full-Stack Developer and and information systems student at PUCE. 
