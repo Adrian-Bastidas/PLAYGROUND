@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (<>
-        <img src="./Images/foto.png" className='rectangulo-foto' alt="Imagen personal" width="2000" />
+        <img src="./Images/foto.png" alt="Imagen personal" width="2000" />
 
     <div className='about'>
       <div className='texto-neto'>
