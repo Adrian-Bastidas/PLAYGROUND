@@ -6,10 +6,10 @@ const About = () => {
       <img className='rectangulo-foto' src="./Images/foto.jpg"/>
       <div className='texto-neto'>
       <p className='nombre'>Adrian Rafael Bastidas Moya</p>
-      <p className='texto-about'>Hi, I’m a Full-Stack Developer and Mechatronics Engineer, bla bla bla Hi, 
-        I’m a Full-Stack Developer and Mechatronics Engineer, bla bla bla Hi, 
-        I’m a Full-Stack Developer and Mechatronics Engineer, bla bla bla Hi, 
-        I’m a Full-Stack Developer and Mechatronics Engineer, bla bla bla</p>
+      <p className='texto-about'>Hi, I’m a Full-Stack Developer and and information systems student at PUCE. 
+        I am 22 years old and my favorite hobbies are cycling and self-learning. 
+        Currently, in addition to personal projects, I have only had experience in one company. 
+        I like to work in a team with anyone, however, I am also very good working alone</p>
       </div>
     </div>
   )
