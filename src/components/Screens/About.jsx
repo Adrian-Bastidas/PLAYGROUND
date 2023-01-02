@@ -1,9 +1,10 @@
 import React from 'react'
 
 const About = () => {
-  return (
+  return (<>
+        <img src="./Images/foto.png" className='rectangulo-foto' alt="Imagen personal" width="2000" />
+
     <div className='about'>
-      <img className="rectangulo-foto" src="./Images/foto.png" alt="Imagen personal"/>
       <div className='texto-neto'>
       <p className='nombre'>Adrian Rafael Bastidas Moya</p>
       <p className='texto-about'>Hi, I’m a Full-Stack Developer and and information systems student at PUCE. 
@@ -12,6 +13,7 @@ const About = () => {
         I like to work in a team with anyone, however, I am also very good working alone</p>
       </div>
     </div>
+    </>
   )
 }
 
