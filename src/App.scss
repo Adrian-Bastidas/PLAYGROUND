@@ -353,6 +353,7 @@ flex-direction: column;
 .about{
   display: flex;
   .rectangulo-foto{
+    display: block;
     box-sizing: border-box;
     width:22%;
     height: 0%;
