@@ -1,3 +1,23 @@
+
+.navbar-boton{
+  display: none;
+  background: transparent;
+}
+.navbar-toggler .navbar-toggler-icon {
+  width: 3em;
+  height: 3em;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.navbar-menu.is-hidden {
+  display: none;
+}
+
 body{
   position: relative;
   min-height: 100vh;
@@ -272,9 +292,9 @@ flex-direction: column;
 }
 .fut-space{
   position: absolute;
-  bottom: 0%;
+  bottom: 0;
   width: 100%;
-  height: 40px;
+  height: 0%;
   background-color: transparent;
   font-family: 'Montserrat', sans-serif;
 }
@@ -283,7 +303,7 @@ flex-direction: column;
   font-size: 48px;
 }
 .formulario{
-  width: 622px;
+  width: 45%;
   height: 439px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   margin: auto;
@@ -307,7 +327,7 @@ flex-direction: column;
         font-weight: 400;
           font-size: 15px;
           border: 1px solid rgba(0, 0, 0, 0.5);
-          width: 237px;
+          width: 40%;
           height: 40px;
           margin-right:2.5%;
           font-weight: 400;
@@ -316,14 +336,14 @@ flex-direction: column;
         font-weight: 400;
           font-size: 15px;
           border: 1px solid rgba(0, 0, 0, 0.5);
-          width: 237px;
+          width: 45%;
           height: 40px;
           font-weight: 400;
       }
     }
     .normales{
       margin-top: 24px;
-      width: 494px;
+      width: 88%;
       border: 1px solid rgba(0, 0, 0, 0.5);
       height: 40px;
       font-weight: 400;
@@ -331,7 +351,7 @@ flex-direction: column;
     .area{
       margin-top: 24px;
       border: 1px solid rgba(0, 0, 0, 0.5);
-      width: 494px;
+      width: 88%;
       height: 97px;
       resize:none;
       font-weight: 400;
@@ -343,7 +363,7 @@ flex-direction: column;
       font-weight: 500;
       font-size: 15px;
       letter-spacing: -0.015em;
-      width: 130px;
+      width: 20%;
       height: 40px;
       color: white;
       border-radius: 6px;
@@ -354,10 +374,13 @@ flex-direction: column;
   display: flex;
   .rectangulo-foto{
     box-sizing: border-box;
-    width:300px;
+    width:20%;
     margin-left: 5%;
     margin-top: 2%;
     border: 1px solid rgba(0, 0, 0, 0.3);
+    @media screen {
+      margin:auto
+    }
     }
     .texto-neto{
       margin-left: 10%;
@@ -583,6 +606,15 @@ overflow: hidden;
         p:contains("importante") {
           color: red;
         }
+      }
+    }
+    @media (max-width: 760px) {
+      .nav-space {
+        display: none;
+      }
+    
+      .navbar-boton {
+        display: block;
       }
     }
     

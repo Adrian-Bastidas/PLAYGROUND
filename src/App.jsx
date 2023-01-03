@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
@@ -9,9 +8,10 @@ import Clock from './components/Screens/Clock';
 import About from './components/Screens/About';
 import Contact from './components/Screens/Contact';
 import Footer from './components/Footer';
+import React, { useState } from 'react';
+
 
 function App() {
-
   const tarjeta={
     bajoPeso:[18.5,"Bajo Peso"],
     adecuado:[18.5, 24.9,"Adecuado"],
@@ -27,18 +27,18 @@ function App() {
   return (
     <div className="App">
             <Router>
-      <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/Imc" element={<Imc datos={tarjeta}/>}/>
-          <Route path="/Age" element={<Age/>}/>
-          <Route path="/Clock" element={<Clock/>}/>
-          <Route path="/About" element={<About/>}/>
-          <Route path="/Contact" element={<Contact/>}/>
-        </Routes>
-        <Footer/>
+        <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Imc" element={<Imc datos={tarjeta} />} />
+            <Route path="/Age" element={<Age />} />
+            <Route path="/Clock" element={<Clock />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+          <Footer />
       </Router>
-    </div>
+    </div >
   );
 }
 
